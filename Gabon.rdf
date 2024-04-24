@@ -1,0 +1,1230 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6/"
+     xml:base="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#hasComponent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#hasIngredient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#isFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#isFrom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#hasImage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#hasImage"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodComponent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Place"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Arachide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Arachide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Arachide_écrasé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Arachide_écrasé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Asperges_sauvages -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Asperges_sauvages">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Atoa_owono_a_la_banane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Atoa_owono_a_la_banane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Arachide_écrasé"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#banane"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Atoa%20owono%20a%20la%20banane.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Aubergine_aux_feuille_de_taro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Aubergine_aux_feuille_de_taro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#aubergines"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#eau"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuille_de_taro"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Aubergine%20aux%20feuille%20de%20taro.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Aubergines_à_la_sardine_et_crevettes_accompagné_du_riz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Aubergines_à_la_sardine_et_crevettes_accompagné_du_riz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#aubergines"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crevettes"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#riz"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sardine"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Aubergines%20%C3%A0%20la%20sardine%20et%20crevettes%20accompagn%C3%A9%20du%20riz.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Banane_plantain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Banane_plantain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Bouillon_de_carpe_pimenté -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Bouillon_de_carpe_pimenté">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#carpe"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#eau"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Bouillon%20de%20carpe%20piment%C3%A9.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Choux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Choux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Coupé_coupé_au_pain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Coupé_coupé_au_pain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Viande_de_bœuf"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;arachide"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Coup%C3%A9%20coup%C3%A9%20au%20pain.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Curry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Curry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Epinards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Epinards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Fleur_de_bananier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Fleur_de_bananier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gateau_banane_et_noix_de_coco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gateau_banane_et_noix_de_coco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#banane"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#beurre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#bicarbonate_de_soude"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#farine"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#lait_entier"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#noix_de_coco"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sucre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#œufs"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Gateau%20banane%20et%20noix%20de%20coco.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gigot_de_sanglier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gigot_de_sanglier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Graines_de_courges_décortiquées -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Graines_de_courges_décortiquées">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Iporo_plus_banane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Iporo_plus_banane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#banane"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuille_de_manioc"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#pâte_d&apos;Arachide"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#viande/poisson_fumé"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Iporo%20plus%20banane.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Le_poulet_fumé_au_Nyembwé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Le_poulet_fumé_au_Nyembwé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Purée_de_noix_de_palme"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#ail"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#noix_de_palme"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poulet"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Feuilles_d’oseille"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Le%20poulet%20fum%C3%A9%20au%20Nyembw%C3%A9.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Légumes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Légumes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Maïs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Maïs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Odika -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Odika">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#chocolat_indigène"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#chocolat_indigène -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#chocolat_indigène"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poisson_grillé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poisson_grillé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;olive"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Poisson%20grill%C3%A9.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poisson_salé_aux_légumes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poisson_salé_aux_légumes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Choux"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Légumes"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#ail"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#aubergines"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#carotte"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crevettes"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuilles_de_basilic"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#patate_douce"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment_oiseau"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#pommes_de_terre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Poisson%20sal%C3%A9%20aux%20l%C3%A9gumes.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poisson_à_la_braise_aux_beignets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poisson_à_la_braise_aux_beignets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson_braisé"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#riz"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Poisson%20%C3%A0%20la%20braise%20aux%20beignets.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poivron_vert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poivron_vert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poulet_sauce_graine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poulet_sauce_graine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#boullon_d_kub"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#eau"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#graine_de_palme"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_de_palme"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poulet_fumé"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Poulet%20sauce%20graine.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Purée_de_noix_de_palme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Purée_de_noix_de_palme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Ragoût_de_bœuf_aux_bananes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Ragoût_de_bœuf_aux_bananes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Banane_plantain"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Curry"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Poivron_vert"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Tablette_de_bouillon_de_bœuf."/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Viande_de_bœuf"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_de_palme"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#tomate"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Rago%C3%BBt%20de%20b%C5%93uf%20aux%20bananes.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Salade_concombre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Salade_concombre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#concombre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#jus_de_citron"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#menthe"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#persil"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre_noir"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#tomate"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;olive"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Salade%20concombre.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Salade_de_fleur_de_bananier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Salade_de_fleur_de_bananier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Fleur_de_bananier"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#carotte"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#concombre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#jus_de_citron"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#lait_de_coco"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#persil"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#tomate"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Salade%20de%20fleur%20de%20bananier.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Sardine_fumé_dans_le_Nkumu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Sardine_fumé_dans_le_Nkumu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#ail"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#bottes_de_Nkumu"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crevettes"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_de_palme"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson_fumé"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Sardine%20fum%C3%A9%20dans%20le%20Nkumu.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Sauce_épinards_crevettes_et_poisson_fumé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Sauce_épinards_crevettes_et_poisson_fumé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Epinards"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#ail"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#boullon_d_kub"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crevettes"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#persil"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson_fumé"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#tomate"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;arachide"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Sauce%20%C3%A9pinards%20crevettes%20et%20poisson%20fum%C3%A9.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Tablette_de_bouillon_de_bœuf. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Tablette_de_bouillon_de_bœuf.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Viande_de_bœuf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Viande_de_bœuf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#ail -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#ail">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#aubergines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#aubergines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#banane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#banane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#bananes_au_four -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#bananes_au_four">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#banane"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#chapelure"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crème_aigre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sucre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#œufs"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#jus_d&apos;orange"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/bananes%20au%20four.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#beurre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#beurre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#bicarbonate_de_soude -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#bicarbonate_de_soude">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#bottes_de_Nkumu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#bottes_de_Nkumu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#boullon_d_kub -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#boullon_d_kub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#branche_de_basilic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#branche_de_basilic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#branches_de_percil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#branches_de_percil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#brins_de_ciboulette -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#brins_de_ciboulette">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#carotte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#carotte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#carpe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#carpe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#chapelure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#chapelure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#chocolat_indigène -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#chocolat_indigène">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#concombre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#concombre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crabe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crabe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crabes_farcis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crabes_farcis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#ail"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#branches_de_percil"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#brins_de_ciboulette"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crabe"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crevettes"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#jus_de_citron"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#safran"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#tomate"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;arachide"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/crabes%20farcis.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crevettes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crevettes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crème_aigre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crème_aigre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#cube -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#cube">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#eau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#eau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#farine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#farine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuille_de_manioc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuille_de_manioc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuille_de_taro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuille_de_taro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuilles_de_bananier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuilles_de_bananier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuilles_de_basilic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuilles_de_basilic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuilles_de_laurier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuilles_de_laurier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#graine_de_palme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#graine_de_palme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_de_palme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_de_palme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#jus_de_citron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#jus_de_citron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#lait_de_coco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#lait_de_coco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#lait_entier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#lait_entier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#menthe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#menthe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#noix_de_coco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#noix_de_coco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#noix_de_palme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#noix_de_palme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#patate_douce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#patate_douce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#persil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#persil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment_oiseau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment_oiseau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson_braisé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson_braisé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson_fumé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson_fumé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre_noir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre_noir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#pommes_de_terre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#pommes_de_terre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poulet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poulet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poulet_fumé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poulet_fumé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#riz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#riz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#safran -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#safran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sardine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sardine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sucre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sucre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#tomate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#tomate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#œufs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#œufs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Feuilles_d’oseille -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Feuilles_d’oseille">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gâteau_de_courges_(Pains_de_concombres) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gâteau_de_courges_(Pains_de_concombres)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Graines_de_courges_décortiquées"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#crevettes"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuilles_de_bananier"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuilles_de_laurier"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poisson_fumé"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/G%C3%A2teau%20de%20courges%20(Pains%20de%20concombres).png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Hedza’a_esbak_(feuille_de_manioc_au_noix_de_palme_avec_mais_entier) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Hedza’a_esbak_(feuille_de_manioc_au_noix_de_palme_avec_mais_entier)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Maïs"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#feuille_de_manioc"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#noix_de_palme"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Hedza%E2%80%99a%20esbak%20(feuille%20de%20manioc%20au%20noix%20de%20palme%20avec%20mais%20entier).png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Le_sanglier_dans_l’Odika -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Le_sanglier_dans_l’Odika">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gigot_de_sanglier"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Odika"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#ail"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Le%20sanglier%20dans%20l%E2%80%99Odika.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Nfouk_awono(soupe_d’arachide) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Nfouk_awono(soupe_d’arachide)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Arachide"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#persil"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#tomate"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Nfouk%20awono(soupe%20d%E2%80%99arachide).png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Odika_(poulet_fumé_au_chocolat_indigène) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Odika_(poulet_fumé_au_chocolat_indigène)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#chocolat_indigène"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poulet"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;arachide"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Odika%20(poulet%20fum%C3%A9%20au%20chocolat%20indig%C3%A8ne).png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Okana_(asperges_sauvages) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Okana_(asperges_sauvages)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Asperges_sauvages"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;arachide"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/Okana%20(asperges%20sauvages).png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#cotis_braisées_à_l&apos;odika_et_banane_pilée -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#cotis_braisées_à_l&apos;odika_et_banane_pilée">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Dish"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Food"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Odika"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#ail"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#banane"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#branche_de_basilic"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#cube"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#oignon"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#piment"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#poivre"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#sel"/>
+        <untitled-ontology-6:hasIngredient rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#tomate"/>
+        <untitled-ontology-6:isFrom rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#Gabon"/>
+        <untitled-ontology-6:hasImage>https://github.com/jiofidelus/tsotsa/blob/main/TSOTSAImg_dataset/Gabon/cotis%20brais%C3%A9es%20%C3%A0%20l_odika%20et%20banane%20pil%C3%A9e.png</untitled-ontology-6:hasImage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;arachide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;arachide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;olive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#huile_d&apos;olive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#jus_d&apos;orange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#jus_d&apos;orange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#pâte_d&apos;Arachide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#pâte_d&apos;Arachide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#viande/poisson_fumé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#viande/poisson_fumé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mica/ontologies/2024/3/untitled-ontology-6#FoodIngredient"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
