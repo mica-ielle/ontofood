@@ -2,7 +2,7 @@ A.
 
 1. installer jena fuseki server
 2. lancer jena fuseki server
-3. importer l'ontologie "Gabon.rdf" dans jena
+3. importer l'ontologie "Gabon.rdf" dans jena sous le nom "gabon"
 
 B.
 
