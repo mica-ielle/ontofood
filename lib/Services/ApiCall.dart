@@ -6,8 +6,7 @@ import 'package:xml2json/xml2json.dart';
 
 class ApiCall {
 
-  static String serverUri = "http://192.168.42.187:3030";//fil
-  //static String serverUri = "http://192.168.43.164:3030";//wifi
+  static String serverUri = "http://16.16.56.82:80";//aws
 
   static Future<Reponse?>? AddClasse(String className) async {
 
